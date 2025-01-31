@@ -1,1 +1,1 @@
-# odin-landing-page
+An Odin Project flexbox assignment: a full landing page.
