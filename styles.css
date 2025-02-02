@@ -32,10 +32,17 @@ body {
 }
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding:100px 180px;
     gap: 25px;
 
+}
+.hero-wrapper{
+    width: 1000px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
 }
 .hero-left {
     display: flex;
@@ -130,6 +137,9 @@ button {
 }
 .cta {
     padding: 80px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cta-blue-box {
     background-color: #3882f6;
@@ -138,6 +148,8 @@ button {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    width: 900px;
+    min-width: 900px;;
 }
 .cta-header {
     font-weight: 700;
